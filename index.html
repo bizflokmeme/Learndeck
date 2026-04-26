@@ -1,0 +1,367 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes" />
+  <title>Awareness Campaign Report | Bizflok Media</title>
+  
+  <!-- External CSS -->
+  <link rel="stylesheet" href="style.css" />
+  
+  <!-- Fonts and Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  
+  <!-- Chart.js -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+  <div id="atmos"></div>
+
+  <div class="page">
+
+    <nav class="navbar">
+      <div class="logo"><i class="fab fa-instagram"></i> Campaign Report</div>
+      <div class="nav-tag"><i class="fas fa-chart-pie" style="color:var(--gold);margin-right:8px"></i> Awareness · 2026</div>
+    </nav>
+
+    <section class="hero-section">
+      <div class="hero-left">
+        <span class="campaign-tag"><i class="fas fa-bullhorn"></i> &nbsp; Instagram Awareness Campaign</span>
+        <h1>Awareness<br><em>Campaign</em><br>Report</h1>
+        <p class="subtitle">A detailed performance overview of the Instagram awareness campaign, measuring reach, engagement, and collaborative impact across partnered pages.</p>
+        <div class="meta-row">
+          <div class="meta-item"><i class="fas fa-calendar-alt"></i> Campaign Period: April 2026</div>
+          <div class="meta-item"><i class="fab fa-instagram"></i> Platform: Instagram</div>
+          <div class="meta-item"><i class="fas fa-users"></i> 25 Pages Collaborated</div>
+        </div>
+      </div>
+      <div class="hero-right">
+        <a class="profile-card" href="https://www.instagram.com/fathima_learndeck/following/?hl=en" target="_blank" rel="noopener noreferrer">
+          <div class="profile-photo">
+            <img src="Fathima.png" alt="Learndeck">
+          </div>
+          <div class="profile-info-box">
+            <div class="p-name">Fathima Siraj</div>
+            <div class="p-role">Founder of Learndeck</div>
+            <div style="margin-top:8px;font-size:0.75rem;color:var(--text-muted);display:flex;align-items:center;gap:5px;">
+              <i class="fab fa-instagram" style="color:var(--gold);"></i> View on Instagram
+            </div>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <section class="bio-section">
+      <div class="section-heading reveal"><i class="fas fa-star"></i> About Fathima Learndeck</div>
+      <p class="bio-text reveal" style="transition-delay:0.1s">
+        <strong>Fathima Siraj</strong> is the founder of <strong>Learndeck</strong>, who at just <strong>22 years old</strong> turned her vision into a mission — giving academically struggling children a real chance to thrive.
+
+From <strong>Koduvally, Kozhikode</strong>, she launched Learndeck in <strong>2019</strong> with a simple but powerful goal: strengthen every child's learning foundation within just <strong>15 days</strong>. When COVID-19 hit and pushed her institution to the edge, she didn't quit — she pivoted to online education and rebuilt from zero, overcoming financial setbacks and partner losses along the way.
+
+Today, Learndeck employs <strong>500+ teachers</strong>, serves <strong>tens of thousands of students</strong> from LKG to Plus Two, and has expanded beyond Kerala into <strong>Karnataka and Tamil Nadu</strong> — with a dream to go global.
+
+Fathima is proof that dreams have no limits — and she's just getting started.
+      </p>
+      <div class="achievement-chips reveal" style="transition-delay:0.2s">
+        <span class="a-chip"><i class="fas fa-trophy"></i> Founder & CEO</span>
+        <span class="a-chip"><i class="fas fa-handshake"></i> Community Leader</span>
+        <span class="a-chip"><i class="fas fa-lightbulb"></i> Brand Innovator</span>
+        <span class="a-chip"><i class="fas fa-chart-line"></i> Teacher</span>
+        <span class="a-chip"><i class="fas fa-award"></i> Industry Recognitions</span>
+      </div>
+    </section>
+
+    <section class="collab-section">
+      <div class="section-heading reveal"><i class="fas fa-handshake"></i> Pages that Collaborated with Us</div>
+      <p style="color:var(--text-muted);margin-top:16px;font-size:0.95rem" class="reveal">
+        11 Instagram pages partnered with this campaign. Tap any page to visit the post they shared.
+      </p>
+      <div class="collab-grid">
+        <a class="collab-card reveal" href="https://www.instagram.com/p/DXMR2ALmYtK/?igsh=YThhOGRqYzZ1ejl2" target="_blank" rel="noopener noreferrer" style="transition-delay:0.05s">
+          <div class="collab-avatar"><img src="logo/thengakola.jpg" alt="Thengakola Media"></div>
+          <div class="collab-name">Thengakola Media</div>
+          <div class="collab-handle">@thengakolamedia</div>
+          <div class="collab-visit"><i class="fas fa-arrow-up-right-from-square"></i> View Post</div>
+        </a>
+        <a class="collab-card reveal" href="https://www.instagram.com/p/DXMTEW8kYXx/?igsh=MW45OWx3MjdkbmF4bA==" target="_blank" rel="noopener noreferrer" style="transition-delay:0.1s">
+          <div class="collab-avatar"><img src="logo/Manda.jpg" alt="Troll Aanu Manda"></div>
+          <div class="collab-name">Troll Aanu Manda</div>
+          <div class="collab-handle">@trollaanumanda</div>
+          <div class="collab-visit"><i class="fas fa-arrow-up-right-from-square"></i> View Post</div>
+        </a>
+        <a class="collab-card reveal" href="https://www.instagram.com/p/DXMVl_DDOOo/?igsh=b3c2cTVxZmJhbzhv" target="_blank" rel="noopener noreferrer" style="transition-delay:0.15s">
+          <div class="collab-avatar"><img src="logo/polisanam only.jpg" alt="Powli Sanam Only"></div>
+          <div class="collab-name">Powli Sanam Only</div>
+          <div class="collab-handle">@powli.sanam.only</div>
+          <div class="collab-visit"><i class="fas fa-arrow-up-right-from-square"></i> View Post</div>
+        </a>
+        <a class="collab-card reveal" href="https://www.instagram.com/p/DXMS9MgE5en/?igsh=cndhcW9pN2c2bHpq" target="_blank" rel="noopener noreferrer" style="transition-delay:0.2s">
+          <div class="collab-avatar"><img src="logo/mallu only 2.jpg" alt="Mallus Only 2.0"></div>
+          <div class="collab-name">Mallus Only 2.0</div>
+          <div class="collab-handle">@mallus_only_2.0</div>
+          <div class="collab-visit"><i class="fas fa-arrow-up-right-from-square"></i> View Post</div>
+        </a>
+        <a class="collab-card reveal" href="https://www.instagram.com/p/DXPI9H1E7gw/?igsh=MXh4ZDB3cG96Ynpkeg==" target="_blank" rel="noopener noreferrer" style="transition-delay:0.25s">
+          <div class="collab-avatar"><img src="logo/adholokam.jpg" alt="Troll Adholokam"></div>
+          <div class="collab-name">Troll Adholokam</div>
+          <div class="collab-handle">@troll__adholokam</div>
+          <div class="collab-visit"><i class="fas fa-arrow-up-right-from-square"></i> View Post</div>
+        </a>
+        <a class="collab-card reveal" href="https://www.instagram.com/p/DXPG-KRiHAP/?igsh=bmxkdzVrcmtwNGIy" target="_blank" rel="noopener noreferrer" style="transition-delay:0.3s">
+          <div class="collab-avatar"><img src="logo/troll club.jpg" alt="Mallu Troll Club"></div>
+          <div class="collab-name">Mallu Troll Club</div>
+          <div class="collab-handle">@mallutrollclub</div>
+          <div class="collab-visit"><i class="fas fa-arrow-up-right-from-square"></i> View Post</div>
+        </a>
+        <a class="collab-card reveal" href="https://www.instagram.com/p/DXPEYNHkzWj/?igsh=eGt3dmNsdmxsZzVt" target="_blank" rel="noopener noreferrer" style="transition-delay:0.35s">
+          <div class="collab-avatar"><img src="logo/dasamoolam.jpg" alt="Dashamoolam Media"></div>
+          <div class="collab-name">Dashamoolam Media</div>
+          <div class="collab-handle">@dashamoolam.media</div>
+          <div class="collab-visit"><i class="fas fa-arrow-up-right-from-square"></i> View Post</div>
+        </a>
+        <a class="collab-card reveal" href="https://www.instagram.com/p/DXPGfIdjWYt/?igsh=MW8ycTFtZmV2cHpucQ==" target="_blank" rel="noopener noreferrer" style="transition-delay:0.4s">
+          <div class="collab-avatar"><img src="logo/tintumon.jpg" alt="Tintumon Media"></div>
+          <div class="collab-name">Tintumon Media</div>
+          <div class="collab-handle">@tintumon.media</div>
+          <div class="collab-visit"><i class="fas fa-arrow-up-right-from-square"></i> View Post</div>
+        </a>
+        <a class="collab-card reveal" href="https://www.instagram.com/p/DXPDpYzD07v/?igsh=MWZqMDB2bXZmaGt5cg==" target="_blank" rel="noopener noreferrer" style="transition-delay:0.45s">
+          <div class="collab-avatar"><img src="logo/chunk.jpg" alt="Troll Chunk Official"></div>
+          <div class="collab-name">Troll Chunk Official</div>
+          <div class="collab-handle">@trollchunkofficial</div>
+          <div class="collab-visit"><i class="fas fa-arrow-up-right-from-square"></i> View Post</div>
+        </a>
+        <a class="collab-card reveal" href="https://www.instagram.com/reel/DXRbUOoEs9R/?igsh=OWRyczVwcDVvZ3pz" target="_blank" rel="noopener noreferrer" style="transition-delay:0.5s">
+          <div class="collab-avatar"><img src="logo/Malayali memes.jpg" alt="Malayali Memez"></div>
+          <div class="collab-name">Malayali Memez</div>
+          <div class="collab-handle">@malayali_memez</div>
+          <div class="collab-visit"><i class="fas fa-arrow-up-right-from-square"></i> View Post</div>
+        </a>
+        <a class="collab-card reveal" href="https://www.instagram.com/reel/DXRag2LkeKO/?igsh=MWtrMnFubzR4bDFmbA==" target="_blank" rel="noopener noreferrer" style="transition-delay:0.55s">
+          <div class="collab-avatar"><img src="logo/movie troll.jpg" alt="Malayalam Movie Trolls"></div>
+          <div class="collab-name">Malayalam Movie Trolls</div>
+          <div class="collab-handle">@malayalammovietrolls</div>
+          <div class="collab-visit"><i class="fas fa-arrow-up-right-from-square"></i> View Post</div>
+        </a>
+        <a class="collab-card reveal" href="https://www.instagram.com/p/DXRst9QCOiX/?igsh=MWQ3OHNsNjljYTVxbg==" target="_blank" rel="noopener noreferrer" style="transition-delay:0.6s">
+          <div class="collab-avatar"><img src="logo/nerampokunille.jpg" alt="Neram Pokunnille Monoosse"></div>
+          <div class="collab-name">Neram Pokunnille Monoosse</div>
+          <div class="collab-handle">@nerampokunille_monoosse</div>
+          <div class="collab-visit"><i class="fas fa-arrow-up-right-from-square"></i> View Post</div>
+        </a>
+        <a class="collab-card reveal" href="https://www.instagram.com/p/DXRuVcpgnmi/?igsh=NHMxaHZhb3BmM3l5" target="_blank" rel="noopener noreferrer" style="transition-delay:0.65s">
+          <div class="collab-avatar"><img src="logo/mixer.jpg" alt="Troll Mixer Official"></div>
+          <div class="collab-name">Troll Mixer Official</div>
+          <div class="collab-handle">@trollmixer.official</div>
+          <div class="collab-visit"><i class="fas fa-arrow-up-right-from-square"></i> View Post</div>
+        </a>
+        <a class="collab-card reveal" href="https://www.instagram.com/p/DXRvITSDSFr/?igsh=MWVjbHU1dWY4OW95Yw==" target="_blank" rel="noopener noreferrer" style="transition-delay:0.7s">
+          <div class="collab-avatar"><img src="logo/troll malayali.jpg" alt="Troll Malayali"></div>
+          <div class="collab-name">Troll Malayali</div>
+          <div class="collab-handle">@trollmalayali</div>
+          <div class="collab-visit"><i class="fas fa-arrow-up-right-from-square"></i> View Post</div>
+        </a>
+        <a class="collab-card reveal" href="https://www.instagram.com/p/DXUJ6oxE3Mx/?igsh=dXV4czQ3OWI5eXBq" target="_blank" rel="noopener noreferrer" style="transition-delay:0.75s">
+          <div class="collab-avatar"><img src="logo/mallu thugs.jpg" alt="Mallu Thug Lyf"></div>
+          <div class="collab-name">Mallu Thug Lyf</div>
+          <div class="collab-handle">@mallu_thug_lyf</div>
+          <div class="collab-visit"><i class="fas fa-arrow-up-right-from-square"></i> View Post</div>
+        </a>
+        <a class="collab-card reveal" href="https://www.instagram.com/reel/DXUJoZ8gpVm/?igsh=MWdhbDB3ajJiOTV0aQ==" target="_blank" rel="noopener noreferrer" style="transition-delay:0.8s">
+          <div class="collab-avatar"><img src="logo/asif.jpg" alt="Asif Ikka Uyir"></div>
+          <div class="collab-name">Asif Ikka Uyir</div>
+          <div class="collab-handle">@asifikkauyir</div>
+          <div class="collab-visit"><i class="fas fa-arrow-up-right-from-square"></i> View Post</div>
+        </a>
+        <a class="collab-card reveal" href="https://www.instagram.com/p/DXUIlcAj_Zc/?igsh=eDZrbTFhOG1tbXZi" target="_blank" rel="noopener noreferrer" style="transition-delay:0.85s">
+          <div class="collab-avatar"><img src="logo/sreerag.jpg" alt="Poli Sadanam Memes"></div>
+          <div class="collab-name">Poli Sadanam Memes</div>
+          <div class="collab-handle">@polisadanammemes</div>
+          <div class="collab-visit"><i class="fas fa-arrow-up-right-from-square"></i> View Post</div>
+        </a>
+        <a class="collab-card reveal" href="https://www.instagram.com/p/DXUKW3IEvLN/?igsh=MWl3emVveHh3Ymg2MQ==" target="_blank" rel="noopener noreferrer" style="transition-delay:0.9s">
+          <div class="collab-avatar"><img src="logo/kl 10.jpg" alt="KL10 Football Braanthan"></div>
+          <div class="collab-name">KL10 Football Braanthan</div>
+          <div class="collab-handle">@kl10footballbraanthan</div>
+          <div class="collab-visit"><i class="fas fa-arrow-up-right-from-square"></i> View Post</div>
+        </a>
+        <a class="collab-card reveal" href="https://www.instagram.com/p/DXW4OhkE-cK/?igsh=eXFxOXAzdjJkeG5w" target="_blank" rel="noopener noreferrer" style="transition-delay:0.95s">
+          <div class="collab-avatar"><img src="logo/polisanam only.jpg" alt="Powli Sanam"></div>
+          <div class="collab-name">Powli Sanam</div>
+          <div class="collab-handle">@powlisanam</div>
+          <div class="collab-visit"><i class="fas fa-arrow-up-right-from-square"></i> View Post</div>
+        </a>
+        <a class="collab-card reveal" href="https://www.instagram.com/p/DXW2XOekYNk/?igsh=MW9zazYzcnJxajh6aw==" target="_blank" rel="noopener noreferrer" style="transition-delay:1.0s">
+          <div class="collab-avatar"><img src="logo/sex.jpg" alt="Sex Education Malayalam"></div>
+          <div class="collab-name">Sex Education Malayalam</div>
+          <div class="collab-handle">@sexeducationmalayalam</div>
+          <div class="collab-visit"><i class="fas fa-arrow-up-right-from-square"></i> View Post</div>
+        </a>
+        <a class="collab-card reveal" href="https://www.instagram.com/p/DXWqC3CD6AS/?igsh=YzJsMGF3bXRmcmp4" target="_blank" rel="noopener noreferrer" style="transition-delay:1.05s">
+          <div class="collab-avatar"><img src="logo/kiduve.jpg" alt="Ente Kiduve"></div>
+          <div class="collab-name">Ente Kiduve</div>
+          <div class="collab-handle">@entekiduve</div>
+          <div class="collab-visit"><i class="fas fa-arrow-up-right-from-square"></i> View Post</div>
+        </a>
+        <a class="collab-card reveal" href="https://www.instagram.com/p/DXZBc2eghpo/?igsh=MWZ4amN0bXd1eHRqMg==" target="_blank" rel="noopener noreferrer" style="transition-delay:1.1s">
+          <div class="collab-avatar"><img src="logo/company.jpg" alt="Offensive Company"></div>
+          <div class="collab-name">Offensive Company</div>
+          <div class="collab-handle">@offensivecompany</div>
+          <div class="collab-visit"><i class="fas fa-arrow-up-right-from-square"></i> View Post</div>
+        </a>
+        <a class="collab-card reveal" href="https://www.instagram.com/p/DXbPYQUic4S/?igsh=MW04d3FybXIybzhudg==" target="_blank" rel="noopener noreferrer" style="transition-delay:1.15s">
+          <div class="collab-avatar"><img src="logo/ezhthukal.jpg" alt="Offensive Ezhuthukal"></div>
+          <div class="collab-name">Offensive Ezhuthukal</div>
+          <div class="collab-handle">@offensiveezhuthukal</div>
+          <div class="collab-visit"><i class="fas fa-arrow-up-right-from-square"></i> View Post</div>
+        </a>
+        <a class="collab-card reveal" href="https://www.instagram.com/p/DXZYnORj7u-/?igsh=MWVxc2E0eTczeXVpcQ==" target="_blank" rel="noopener noreferrer" style="transition-delay:1.2s">
+          <div class="collab-avatar"><img src="logo/mallu thugs.jpg" alt="Mallu Thugs"></div>
+          <div class="collab-name">Mallu Thugs</div>
+          <div class="collab-handle">@malluthugs</div>
+          <div class="collab-visit"><i class="fas fa-arrow-up-right-from-square"></i> View Post</div>
+        </a>
+        <a class="collab-card reveal" href="https://www.instagram.com/p/DXZmW2rElQZ/?igsh=cnVyeGtob2N3dHpp" target="_blank" rel="noopener noreferrer" style="transition-delay:1.25s">
+          <div class="collab-avatar"><img src="logo/omkv.jpg" alt="OMKV Trolls"></div>
+          <div class="collab-name">OMKV Trolls</div>
+          <div class="collab-handle">@omkvtrolls</div>
+          <div class="collab-visit"><i class="fas fa-arrow-up-right-from-square"></i> View Post</div>
+        </a>
+      </div>
+    </section>
+
+    <section class="insights-section">
+      <div class="section-heading reveal"><i class="fab fa-instagram"></i> Instagram Insights</div>
+      <p style="color:var(--text-muted);margin-top:16px;font-size:0.95rem" class="reveal">
+        Combined performance metrics across all collaborated posts during the campaign period.
+      </p>
+      <div class="kpi-grid">
+        <div class="kpi-card reveal" style="transition-delay:0.05s">
+          <div class="kpi-icon"><i class="fas fa-eye"></i></div>
+          <div class="kpi-label">Total Reach</div>
+          <input class="kpi-value" id="val-reach" type="text" value="1.1 M" oninput="syncChart()">
+          <div class="kpi-sub">Unique accounts reached</div>
+        </div>
+        <div class="kpi-card blue reveal" style="transition-delay:0.1s">
+          <div class="kpi-icon"><i class="fas fa-heart"></i></div>
+          <div class="kpi-label">Total Likes</div>
+          <input class="kpi-value" id="val-likes" type="text" value="20,041" oninput="syncChart()">
+          <div class="kpi-sub">Across all posts</div>
+        </div>
+        <div class="kpi-card green reveal" style="transition-delay:0.15s">
+          <div class="kpi-icon"><i class="fas fa-comment-dots"></i></div>
+          <div class="kpi-label">Comments</div>
+          <input class="kpi-value" id="val-comments" type="text" value="76" oninput="syncChart()">
+          <div class="kpi-sub">Total comments received</div>
+        </div>
+        <div class="kpi-card reveal" style="transition-delay:0.2s">
+          <div class="kpi-icon"><i class="fas fa-bolt"></i></div>
+          <div class="kpi-label">Engagement Rate</div>
+          <input class="kpi-value" id="val-engagement" type="text" value="8.1%" oninput="syncChart()">
+          <div class="kpi-sub">Avg. across all posts</div>
+        </div>
+        <div class="kpi-card blue reveal" style="transition-delay:0.25s">
+          <div class="kpi-icon"><i class="fas fa-layer-group"></i></div>
+          <div class="kpi-label">Impressions</div>
+          <input class="kpi-value" id="val-impressions" type="text" value="750K" oninput="syncChart()">
+          <div class="kpi-sub">Total post impressions</div>
+        </div>
+      </div>
+      <div class="chart-row reveal" style="transition-delay:0.1s">
+        <div class="chart-wrap">
+          <h3>Campaign Breakdown</h3>
+          <p>Distribution by metric weight</p>
+          <canvas id="pieChart" height="220"></canvas>
+        </div>
+        <div class="chart-legend">
+          <div class="legend-item">
+            <span class="legend-dot" style="background:#d4a373"></span>
+            <span class="legend-label">Total Reach</span>
+            <span class="legend-val" id="leg-reach"></span>
+          </div>
+          <div class="legend-item">
+            <span class="legend-dot" style="background:#60a5fa"></span>
+            <span class="legend-label">Total Likes</span>
+            <span class="legend-val" id="leg-likes"></span>
+          </div>
+          <div class="legend-item">
+            <span class="legend-dot" style="background:#4ade80"></span>
+            <span class="legend-label">Comments</span>
+            <span class="legend-val" id="leg-comments"></span>
+          </div>
+          <div class="legend-item">
+            <span class="legend-dot" style="background:#f97316"></span>
+            <span class="legend-label">Engagement Rate</span>
+            <span class="legend-val" id="leg-engagement"></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="conclusion-section">
+      <div class="section-heading reveal"><i class="fas fa-flag-checkered"></i> Report Conclusion</div>
+      <div class="conclusion-box reveal" style="margin-top:36px;transition-delay:0.1s">
+        <span class="c-tag"><i class="fas fa-check-circle"></i> &nbsp; Campaign Summary</span>
+        <h3>Campaign Delivered Outstanding Awareness Results</h3>
+        <p>
+          The Instagram awareness campaign for <strong style="color:var(--text-soft)">Fathima Siraj</strong> — founder of <strong style="color:var(--text-soft)">Learndeck</strong> — exceeded expectations, successfully achieving its primary objectives of expanding personal brand visibility and driving strong engagement across a highly targeted Malayalam-speaking audience. With a total reach of <strong style="color:var(--gold)">11,00,000 unique accounts</strong> and an average engagement rate of <strong style="color:var(--gold)">8.1%</strong> — significantly above the industry benchmark of 3–5% — the campaign is a clear testament to the power of authentic, community-driven content.<br><br>
+          The 25 partnered pages played a pivotal role in amplifying Fathima's story and her inspiring entrepreneurial journey, collectively generating over <strong style="color:var(--text-soft)">750,000 impressions</strong> and <strong style="color:var(--text-soft)">20,041 likes</strong>. The campaign also received <strong style="color:var(--text-soft)">76 comments</strong>, reflecting genuine audience conversations around Fathima's mission to transform education for underprivileged children across Kerala.<br><br>
+          These results demonstrate that Fathima Siraj's story — a 22-year-old from Koduvally, Kozhikode who built a platform now empowering 500+ teachers and tens of thousands of students — resonated deeply with the community. We strongly recommend building on this momentum with a conversion-focused follow-up campaign to translate this broad awareness into enrollments and measurable growth for Learndeck.
+        </p>
+        <div class="submitted-row">
+          <div class="submitted-info">
+            <div class="s-name">Sarath TP</div>
+            <div style="font-size:0.82rem;color:var(--text-muted)">Meme Marketing Head</div>
+            <div style="font-size:0.82rem;color:var(--text-muted)">Bizflok Media</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer reveal">
+      <div class="footer-main">
+        <div class="footer-brand">
+          <div class="footer-logo-box">
+            <img src="logo/biz.jpg" alt="bizflok logo">
+          </div>
+          <div class="footer-brand-text">
+            <div class="f-name">Bizflok Media</div>
+            <div class="f-tagline">Digital Marketing Agency</div>
+            <div class="f-ceo-mobile">CEO · Akbersha M</div>
+          </div>
+        </div>
+        <div class="footer-right">
+          <div class="f-tagline">CEO</div>
+          <span style="color:var(--gold)">Akbersha M</span>
+        </div>
+      </div>
+
+      <div class="footer-social-bar">
+        <span class="social-label">Let's get connect</span>
+        <a class="social-icon-link fb" href="https://www.facebook.com/p/Bizflok-Media-61554185594480/" title="Facebook" target="_blank" rel="noopener noreferrer">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a class="social-icon-link ig" href="https://www.instagram.com/bizflokmedia/?hl=en" title="Instagram" target="_blank" rel="noopener noreferrer">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a class="social-icon-link yt" href="https://youtube.com/@bizflokmedia?si=GC4B4RHCRDw-GIr_" title="YouTube" target="_blank" rel="noopener noreferrer">
+          <i class="fab fa-youtube"></i>
+        </a>
+      </div>
+
+      <div class="footer-copyright">
+        © 2026 Bizflok Media. All rights reserved.
+      </div>
+    </footer>
+
+  </div><!-- /page -->
+
+  <!-- Scripts -->
+  <script src="script.js"></script>
+</body>
+</html>
